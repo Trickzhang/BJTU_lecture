@@ -5,7 +5,7 @@
 ### 用文本编辑器打开lecture.py，修改下述变量  
 1. get_url:  填入本次讲座的url地址。  
 2. start_time:  填入讲座开抢时间。  
-3. delay_time:  填入检测到时延长时间。设定本变量的原因是判断到时机制为start_time与本地时钟相等。但实际应该判断start_time与服务器时间相等，而本地时钟与服务器时钟并不能保证相等。start_time+delay_time是本地发起请求的实际时间。   
+3. delay_time:  填入检测到时延长时间。该值主要用于处理本地时钟与服务器时钟存在误差，通常设定0.5。   
 4. username:  填入你的姓名。  
 5. student_id:  填入你的学号。
 6. reset_count:  表示发送请求次数(不建议修改此值，该值较大时容易被封IP)。  
