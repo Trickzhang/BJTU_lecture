@@ -13,7 +13,7 @@ import time
 
 get_url = "讲座URL"
 start_time = "讲座开抢时间"  # 格式2019-11-14 09:00:00
-delay_time = 0.2  # int/float类型，延迟以后发送get请求
+delay_time = 0.5  # int/float类型，延迟以后发送get请求
 
 username = "姓名"
 student_id = "学号"
